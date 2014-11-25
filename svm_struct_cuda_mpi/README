@@ -1,0 +1,7 @@
+training parameters
+-c: svm c parameter
+-l: 0/1 loss function type
+--l: loss value
+--w: pairwise weight
+
+2D likelihoods are the detection responses of ALM. For occluded parts, trained weights are used instead of computing the responses of part templates. Inference is done with MCMC sampling with different kinds of moves.
