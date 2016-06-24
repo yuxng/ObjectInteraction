@@ -16,10 +16,21 @@ ObjectInteraction is released under the MIT License (refer to the LICENSE file f
 
 If you find ObjectInteraction useful in your research, please consider citing:
 
-    @incollection{xiang2013object,
+    @inproceedings{xiang2013object,
         author = {Xiang, Yu and Savarese, Silvio},
         title = {Object detection by 3d aspectlets and occlusion reasoning},
         booktitle = {IEEE International Conference on Computer Vision Workshops (ICCVW)},
         pages = {530--537},
         year = {2013}
     }
+
+### File Organization
+1. Annotation_tools: tools for annotating object pose and part locations.
+
+2. CAD: scripts to build 3D aspectlet models. 
+   ```Shell
+   # build 3D aspectlet models
+   cad_train.m
+   ```
+
+3. svm_struct_cuda_mpi: 3D aspectlet detection and occlusion reasoning
