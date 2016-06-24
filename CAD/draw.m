@@ -22,7 +22,7 @@ for i = 1:numel(parts)
         if isempty(aspectlet) == 0 && isempty(find(aspectlet.cor == i, 1)) == 0
             patch(F(:,1), F(:,2), F(:,3), 'b', 'FaceAlpha', 0.5);
         else
-            patch(F(:,1), F(:,2), F(:,3), col, 'FaceAlpha', 0.5);
+            patch(F(:,1), F(:,2), F(:,3), 'r', 'FaceAlpha', 0.5);
         end
     end
 %     center = parts(i).center;
